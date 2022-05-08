@@ -34,5 +34,5 @@ jobs:
           username: ${{ secrets.USERNAME }}
           port: ${{ secrets.PORT }}
           key: ${{ secrets.KEY }}
-          source: "tests/a.txt,tests/b.txt"
-          target: "test"
+          source: "index.html"
+          target: "/home/ubuntu/index.html"
